@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WhackamoleComponent } from './whackamole/whackamole.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WhackamoleComponent
   ],
   imports: [
     BrowserModule,

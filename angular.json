@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "mole-game"
+  "defaultProject": "mole-game",
+  "cli": {
+    "analytics": false
+  }
 }

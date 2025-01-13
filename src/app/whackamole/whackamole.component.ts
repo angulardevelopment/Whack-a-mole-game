@@ -3,7 +3,8 @@ import { Location } from '@angular/common';
 @Component({
   selector: 'app-whackamole',
   templateUrl: './whackamole.component.html',
-  styleUrls: ['./whackamole.component.css']
+  styleUrls: ['./whackamole.component.css'],
+  standalone: false
 })
 export class WhackamoleComponent implements OnInit {
   scoreBoard = 0; // document.querySelector('.score');

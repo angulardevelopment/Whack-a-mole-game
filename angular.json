@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mole-game:build"
+            "buildTarget": "mole-game:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mole-game:build:production"
+              "buildTarget": "mole-game:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mole-game:build"
+            "buildTarget": "mole-game:build"
           }
         },
         "test": {
